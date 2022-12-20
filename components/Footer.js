@@ -60,6 +60,7 @@ export default function Footer() {
 		);
 	};
 
+
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
 		s.setAttribute('src', 'https://crm-comunebergamo--uat.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
